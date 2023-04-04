@@ -1,9 +1,9 @@
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  align-items: flex-end;
   margin: 0;
-  padding: 0;
-  align-items: flex-start;
+  padding: 28px 48px 0;
   justify-content: space-between;
+  outline: blue 2px solid;
 }
