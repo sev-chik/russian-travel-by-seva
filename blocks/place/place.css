@@ -1,0 +1,18 @@
+.place {
+  margin: 0 0 80px;
+  padding: 0;
+  justify-content: center;
+  align-items: center; 
+  display: grid;
+  grid-template-columns: 115fr 121fr;
+  grid-template-rows: 1fr;
+  gap: 40px;
+  justify-items: center;
+  align-items: center; 
+  justify-content: center;
+  align-content: center;
+}
+
+.place:last-child {
+  margin: 0;
+}
