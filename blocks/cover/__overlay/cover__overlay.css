@@ -10,8 +10,7 @@
   background-color: rgba(42, 44, 47, .3);
   text-decoration: none;
   color: #fff;
-  font-family: 'Inter', sans-serif;
-  
+  font-family: 'Inter', sans-serif; 
 }
 
 .cover__overlay:hover {
