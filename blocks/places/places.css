@@ -1,11 +1,28 @@
 .places {
-  /* display: flex;
+  display: flex;
   flex-direction: column;
+
+
+ /*
   margin: 0;
 
   padding: 0; */
   margin: 92px 148px 0;
-  max-width: 1184px;
+  max-width: 984px;
   width: auto;
   align-self: center;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .places {
+    margin: 92px 48px 0;
+}
+}
+
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding: 16px 16px 0;
+}
 }

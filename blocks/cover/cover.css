@@ -13,3 +13,15 @@
   height: 740px;
   width: 100%;
 }
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    height: 640px;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    height: 480px;
+}
+}
