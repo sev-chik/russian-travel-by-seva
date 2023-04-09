@@ -2,11 +2,43 @@
   display: grid;
   gap: 16px;
   margin: 92px 48px 0;
+  max-width: 1184px;
   width: auto;
-  grid-template-columns: repeat(4, max-content);
+  /* grid-template-columns: repeat(4, max-content); */
   grid-template-rows: repeat(3, max-content);
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   justify-items: center;
   align-items: center;
   justify-content: center;
   align-content: center;
+  /* align-self: center; */
+
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grid {
+    margin: 92px auto 0;
+}
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    gap: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+}
+
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+}
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+}
 }
