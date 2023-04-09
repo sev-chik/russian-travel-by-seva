@@ -1,21 +1,15 @@
 .place {
   margin: 0 0 80px;
   padding: 0;
-  justify-content: center;
-  align-items: center;
   display: grid;
   grid-template-columns: 460px 484px;
-  /* grid-template-rows: 1fr; */
   gap: 48px 40px;
-  justify-items: center;
-  align-content: center;
   width: 100%;
 }
 
 .place:last-child {
   margin: 0;
 }
-
 
 @media screen and (max-width: 1279px) {
   .place {
@@ -42,6 +36,5 @@
   .place {
     margin: 0 0 50px;
     gap: 28px 32px;
-    grid-template-columns: 320px;
 }
 }
