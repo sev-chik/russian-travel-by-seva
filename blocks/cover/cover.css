@@ -20,21 +20,16 @@
 }
 }
 
-@media screen and (max-width: 767px) {
-  .cover {
-    margin: 66px auto 0;
-}
-}
-
 @media screen and (max-width: 769px) {
   .cover {
-
-    min-height: 200px;
+    min-height: 480px;
+    margin: 90px auto 0;
 }
 }
 
 @media screen and (max-width: 321px) {
   .cover {
     min-height: 200px;
+    margin: 66px auto 0;
 }
 }
