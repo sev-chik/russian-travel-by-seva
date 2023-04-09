@@ -7,9 +7,13 @@
   align-items: center;
   margin: 0;
   padding: 0;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(42, 44, 47, .3);
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  
 }
 
 .cover__overlay:hover {
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(42, 44, 47, .8);
 }
