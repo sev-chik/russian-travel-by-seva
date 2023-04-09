@@ -10,8 +10,7 @@
   background-size: 100%;
   text-decoration: none;
   color: #fff;
-  font-family: 'Inter', sans-serif; 
-  min-height: 740px
+  min-height: 740px;
 }
 
 .cover__overlay:hover {
