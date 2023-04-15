@@ -5,7 +5,6 @@
   line-height: 106%;
   margin: 0;
   padding: 0;
-  width: 100%;
 }
 
 @media screen and (max-width: 1023px) {
@@ -24,6 +23,6 @@
 
 @media screen and (max-width: 321px) {
   .place__title {
-    margin: 0 0 0 16px;
+    padding: 0 0 0 16px;
   }
 }

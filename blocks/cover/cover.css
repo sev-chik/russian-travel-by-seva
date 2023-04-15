@@ -12,6 +12,7 @@
   background-size: cover;
   min-height: 740px;
   width: 100%;
+  max-width: 1184px;
 }
 
 @media screen and (max-width: 1279px) {

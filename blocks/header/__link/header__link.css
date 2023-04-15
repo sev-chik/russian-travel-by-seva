@@ -6,3 +6,11 @@
   line-height: 117%;
   text-align: right;
 }
+
+@media screen and (max-width: 321px) {
+  .header__link {
+    font-size: 18px;
+    line-height: 111%;
+  }
+};
+  

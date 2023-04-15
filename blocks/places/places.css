@@ -3,27 +3,24 @@
   flex-direction: column;
   margin: 92px 148px 0;
   max-width: 984px;
-  width: auto;
-  align-self: center;
 }
 
 
 @media screen and (max-width: 1279px) {
   .places {
-    margin: 92px 48px 0;
+    margin: 92px auto 0;
 }
 }
 
 @media screen and (max-width: 1023px) {
   .places {
-    margin: 88px 24px 0;
+    margin: 88px auto 0;
 }
 }
-
 
 @media screen and (max-width: 320px) {
   .places {
     padding: 16px 0 0;
-    margin: 64px 0 0 0;
+    margin: 64px 0 0;
 }
 }
